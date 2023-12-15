@@ -1,6 +1,15 @@
 body{
-    background:white;
+    
     padding: 55px;
+    background:rgb(21, 21, 21);
+    padding: 55px;
+    color: #fff;
+    font-size: medium;
+    font-weight: 50;
+    background-size: cover;
+    font-size: 16px;
+    margin: 0;
+    overflow-x: hidden;
 }
 h3{
     color:black;
@@ -41,6 +50,9 @@ text-align: left;
 h2{
     text-align: center;
 }
+.form-container{
+    text-align:center;
     
+}
 
 
