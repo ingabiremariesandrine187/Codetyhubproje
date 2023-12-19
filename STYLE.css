@@ -1,5 +1,5 @@
 body{
-    background:rgb(21, 21, 21);
+    background:rgb(42, 22, 7);
     padding: 55px;
     color: #fff;
     font-size: medium;
@@ -8,10 +8,19 @@ body{
     font-size: 16px;
     margin: 0;
     overflow-x: hidden;
-    ;
+    box-shadow: inset;
+    a{
+        color:#fff;
+        text-decoration: none;   
+
+    }
+    a:hover{
+        text-decoration: underline;
+    }
 }
 h3{
     color:black;
+    text-align: center;
 }
 .navbar{
     display: flex;
@@ -99,4 +108,8 @@ text-align: left;
 
 .paragraph{
     text-align: left;
+}
+.our{
+    display: flex;
+    justify-content: space-between;   
 }

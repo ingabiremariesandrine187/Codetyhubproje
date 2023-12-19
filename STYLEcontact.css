@@ -1,6 +1,6 @@
 body{
     padding: 55px;
-    background:rgb(21, 21, 21);
+    background:rgb(42, 22, 7);
     padding: 55px;
     color: #fff;
     font-size: medium;
@@ -9,6 +9,13 @@ body{
     font-size: 16px;
     margin: 0;
     overflow-x: hidden;
+a{
+    color:white ;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 }
 .picture{
     text-align:right;
@@ -20,16 +27,60 @@ body{
 }
 .menu {
     display: flex;
-    align-items: center;
+    color:white;
     justify-content: space-between;
 }
 .menu div {
     border: 1px ;
     padding: 5px; 
-    color:black;
+    color:white;
     text-decoration: none;
-}
-.form-container{
-    text-align:center;
     
 }
+.container{
+    display:flex;
+align-items:center;
+justify-content: space-around;
+height: 100vh;
+border: 1px;
+border-style: groove;
+width: 55%;
+margin-left:290px;
+border-radius: 55px;}
+
+input{
+   border: 2px solid white;
+    display:block;
+    padding:20px; margin-top: 0em;
+    border-radius:100px;
+    width:200px;
+    text-align: center;
+    color: black;
+    background-color: rgb(77, 72, 72); 
+    length:200px;
+}
+textarea{
+    border: 2px solid white;
+    display:block;
+    padding:20px; margin-top: 0em;
+    border-radius:20px;
+    width:200px;
+    text-align: center;
+    color: black;
+    background-color: rgb(77, 72, 72);  
+    
+}
+button{
+    background-color: rgb(77, 72, 72);
+    color:white;
+    padding: 10px;
+    border-radius:35px ;
+    width:250px;
+cursor:pointer;
+}
+
+
+
+
+
+    

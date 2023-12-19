@@ -1,6 +1,6 @@
 body{
     padding: 15px;
-    background:rgb(21, 21, 21);
+    background:rgb(42, 22, 7);
     padding: 55px;
     color: #fff;
     font-size: medium;
@@ -10,6 +10,14 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
+    a{
+        color:#fff;
+        text-decoration: none;
+    }
+a:hover
+    {
+        text-decoration: underline;
+    }
 .picture{
     text-align:right;
 }
@@ -31,4 +39,30 @@ body{
 }
 .form-container{
     text-align:left;
+}
+button:hover{
+    cursor:pointer;
+}
+#about p{
+    display: inline-flex;
+    grid-template-columns: auto auto;
+    width:40%;
+    padding-left: 5px;
+    margin-left: 300px;
+    font-size: medium;
+    
+    
+    
+}
+.content{
+    
+    border-style: groove;
+    margin-left:290px;
+border-radius: 10px;
+width:55%;
+background-color: rgb(125, 120, 120);
+padding-top: 2px;
+}
+.title{
+    text-decoration:underline;
 }
